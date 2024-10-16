@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  sportscan:
+    image: progamer7695/sportscan:latest
+    container_name: sportscan
+    restart: unless-stopped
+    entrypoint: /bin/ash
+    tty: true
+
+volumes:
+  sportscan: {}
